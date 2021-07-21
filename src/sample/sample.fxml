@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<GridPane alignment="center" hgap="10" vgap="10" xmlns:fx="http://javafx.com/fxml" xmlns="http://javafx.com/javafx" fx:controller="sample.Controller">
+<!--       xmlns:fx="http://javafx.com/fxml" xmlns="http://javafx.com/javafx" fx:controller="sample.Controller"-->
+    <columnConstraints>
+        <ColumnConstraints />
+    </columnConstraints>
+    <rowConstraints>
+        <RowConstraints />
+    </rowConstraints>
+    <children>
+        <AnchorPane prefHeight="540.0" prefWidth="360.0">
+            <children>
+                
+                <Text fx:id="weather" layoutX="24.0" layoutY="80.0" strokeType="OUTSIDE" strokeWidth="0.0" text="WEATHER" textAlignment="CENTER">
+                    <font>
+
+                    </font>
+                </Text>
+                <Text layoutX="260.0" layoutY="530.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Direct by it0n00b" textAlignment="CENTER">
+                    <font>
+                        <Font name="Yu Gothic Light" size="12.0" />
+                    </font>
+                </Text>
+                <Text fx:id="temp" layoutX="35.0" layoutY="230.0" strokeType="OUTSIDE" strokeWidth="0.0" text="TEMPERATURE">
+                    <font>
+                        <Font name="Comic Sans MS Bold Italic" size="17.0" />
+                    </font>
+                </Text>
+                <Text fx:id="mintemp" layoutX="35.0" layoutY="250.0" strokeType="OUTSIDE" strokeWidth="0.0" text="MIN_TEMP">
+                    <font>
+                        <Font name="Comic Sans MS Bold Italic" size="11.0" />
+                    </font>
+                </Text>
+                <Text fx:id="maxtemp" layoutX="35.0" layoutY="270.0" strokeType="OUTSIDE" strokeWidth="0.0" text="MAX_TEMP">
+                    <font>
+                        <Font name="Comic Sans MS Bold Italic" size="11.0" />
+                    </font>
+                </Text>
+                <Text fx:id="feeltemp" layoutX="35.0" layoutY="290.0" strokeType="OUTSIDE" strokeWidth="0.0" text="FEELS_LIKE">
+                    <font>
+                        <Font name="Comic Sans MS Bold Italic" size="11.0" />
+                    </font>
+                </Text>
+                <Text fx:id="humidity" layoutX="35.0" layoutY="325.0" strokeType="OUTSIDE" strokeWidth="0.0" text="HUMIDITY">
+                    <font>
+                        <Font name="Comic Sans MS Bold Italic" size="17.0" />
+                    </font>
+                </Text>
+                <Text fx:id="press" layoutX="37.0" layoutY="360.0" strokeType="OUTSIDE" strokeWidth="0.0" text="PRESSURE">
+                    <font>
+                        <Font name="Comic Sans MS Bold Italic" size="17.0" />
+                    </font>
+                </Text>
+                <Text fx:id="speed" layoutX="37.0" layoutY="395.0" strokeType="OUTSIDE" strokeWidth="0.0" text="WIND SPEED">
+                    <font>
+                        <Font name="Comic Sans MS Bold Italic" size="15.0" />
+                    </font>
+                </Text>
+                <Text fx:id="deg" layoutX="37.0" layoutY="420.0" strokeType="OUTSIDE" strokeWidth="0.0" text="deg">
+                    <font>
+                        <Font name="Comic Sans MS Bold Italic" size="12.0" />
+                    </font>
+                </Text>
+                <ImageView fitHeight="98.0" fitWidth="102.0" layoutX="23.0" layoutY="95.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@img/icon.png" />
+                    </image>
+                </ImageView>
+                <Text fx:id="cloud" layoutX="37.0" layoutY="450.0" strokeType="OUTSIDE" strokeWidth="0.0" text="CLOUDS">
+                    <font>
+                        <Font name="Comic Sans MS Bold Italic" size="15.0" />
+                    </font>
+                </Text>
+                <Text fx:id="condition" layoutX="37.0" layoutY="485.0" strokeType="OUTSIDE" strokeWidth="0.0" text="WEATHER ">
+                    <font>
+                        <Font name="Comic Sans MS Bold Italic" size="15.0" />
+                    </font>
+                </Text>
+                <Text fx:id="" layoutX="37.0" layoutY="500.0" strokeType="OUTSIDE" strokeWidth="0.0" text="CONDITIONS">
+                    <font>
+                        <Font name="Comic Sans MS Bold Italic" size="15.0" />
+                    </font>
+                </Text>
+            <TextField fx:id="city_field" layoutX="160.0" layoutY="111.0" prefHeight="25.0" prefWidth="156.0" promptText="City" />
+            <ImageView fx:id="flag" fitHeight="21.0" fitWidth="25.0" layoutX="321.0" layoutY="117.0" pickOnBounds="true" preserveRatio="true" />
+            <Text layoutX="315.0" layoutY="82.0" strokeType="OUTSIDE" strokeWidth="0.0" text="v2.0">
+               <font>
+                  <Font name="Comic Sans MS Bold" size="11.0" />
+               </font>
+            </Text>
+            <ImageView fitHeight="75.0" fitWidth="38.0" layoutX="285.0" layoutY="225.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@img/termometr.gif" />
+               </image>
+            </ImageView>
+
+
+
+            </children>
+        </AnchorPane>
+    </children>
+</GridPane>

@@ -1,0 +1,19 @@
+.text-field {
+    -fx-background-color:  #000;
+    -fx-text-base-color:white;
+    -fx-font-size: 12pt;
+    -fx-font-family: "Verdana";
+    -fx-text-fill: white;
+    -fx-prompt-text-fill: darkgrey;
+
+
+
+}
+
+#weather {
+
+    -fx-font-family: "Comic Sans MS";
+    -fx-font-size: 55;
+    -fx-font-weight: bold;
+}
+
